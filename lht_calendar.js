@@ -55,7 +55,6 @@ function calCaption(calDate) {
 
       // Determine the current year.
       var thisYear = calDate.getFullYear();
-
       // Write the caption
       return "<caption>" + monthName[thisMonth] + " " + thisYear + "</caption>";
 }
